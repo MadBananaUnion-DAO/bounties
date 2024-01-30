@@ -1,0 +1,107 @@
+
+Web Scraper to create database of content creators
+PR
+
+ProductGuy101
+ProductGuy101
+
+Spent 50K Cyclesin Bounties
+Posted 1 month ago
+
+
+
+Apply
+Bounty Description
+Problem Description
+Project Title: Internet Creator Data Scraper - Database Seeding with Deduplication
+
+Project Objective:
+Develop a robust web scraping tool to systematically collect, deduplicate, 
+and populate a database with detailed information on 100,000+ internet creators from various online platforms. This database will serve as a valuable resource for research, analysis, and business insights while ensuring that each creator is represented by a single entry, regardless of the number of websites they are found on.
+
+Public APIs + Scraping can be used in union to create the best result. 
+The 'how' is not prescriptive as long as the output meets the project requirements.
+
+	Project Description:
+The Internet Creator Data Scraper - 
+Database Seeding project extends the functionality of the web scraping tool 
+to not only collect data on internet creators but also to efficiently 
+store this data in a structured database format. The primary goal is to accumulate 
+a substantial dataset with information on a diverse range of creators while avoiding duplicate entries.
+
+Key Features (in addition to those mentioned previously):
+
+Database Integration: Implement database connectivity and schema for storing creator data securely. Include a unique identifier as the primary key to enforce data uniqueness.
+
+Data Deduplication: Develop a robust deduplication mechanism to prevent the creation of multiple database entries for the same creator across various websites.
+
+Batch Processing: Develop batch processing capabilities to handle the large volume of data efficiently, considering factors like data deduplication and performance optimization.
+
+Incremental Updates: Enable the tool to perform incremental updates to the database, ensuring that new data is added while maintaining existing records.
+
+
+
+	Project Scope:
+Platform Compatibility: 
+The scraper will be capable of extracting data from a wide range of platforms, 
+including but not limited to YouTube, Instagram, TikTok, 
+Twitter/X, Facebook, Patreon, personal websites, and blogs.
+
+Data Points: 
+The scraper will collect essential data points about creators, 
+such as username/handle, follower/subscriber count, content types 
+(videos, images, articles), and demographic information if available (age, location, etc.).
+
+Scalability: 
+The tool should be designed to handle large-scale 
+scraping tasks efficiently, considering factors like rate 
+limiting and proxy rotation to prevent IP blocking.
+
+Scheduled Scraping: 
+Enable users to schedule automated scraping tasks for 
+regular updates on their chosen creator datasets.
+
+
+
+Design and implement a database schema that can accommodate a significant volume of creator data 
+while enforcing data uniqueness through deduplication.
+
+Develop an automated process to transform scraped data 
+into the appropriate format for database insertion.
+
+Database Structure :
+Define the database schema, including tables and fields, 
+to store creator data, ensuring that each entry is uniquely identified to prevent duplicates.
+
+Database should include a primary table of creators
+ with name, display name, creator type, profile picture URL, country code, created/updated timestamps.
+
+Database should include a secondary table with the 
+social profiles for a given creator including the social network the profile belongs to, 
+the URL to the social profile, the social profile handle, the number of followers, 
+and if the profile is verified on the platform.
+
+Acceptance Criteria
+Successful extraction and insertion of data for 100,000+
+creators into the database with data deduplication in place.
+
+Minimal disruptions during database population due to efficient data processing.
+
+By incorporating data deduplication, this project ensures that the database remains clean and consistent, 
+with each unique creator represented by a single entry, 
+regardless of the number of websites they are found on. 
+This approach enhances the reliability and efficiency of the database seeding process.
+
+Ability to re-run the scraper on a recurring cadence to pull additional creators for various sources.
+
+End goal is a database of most of the content creators on the internet with their social profiles 
+and basic details. I should be able to search for a creator that 
+I follow and have it return a result in the DB. Non-US creators are fine to include, 
+but the focus should be on North America.
+
+Final test will be selecting several friends to list their top 10 favorite creators. 
+We will take the list and search for the creators in the database. 
+Passing grade will be 75% of the creators being present.
+
+Bounty - Replit
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
